@@ -8,7 +8,6 @@ const createContactPage = () => {
     const title = document.createElement("div");
     title.textContent = "Contact Us";
     title.id = "title";
-    title.classList.add("contact")
     homePage.appendChild(title);
 
     //add heading
