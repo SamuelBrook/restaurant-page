@@ -18,7 +18,7 @@ const createTitlePage = () => {
 
     //add image
     const image = document.createElement("img");
-    image.src = "/home/samuel/Documents/the_odin_project/javascript-course/restaurant-page/src/images/pizza.jpeg";
+    image.src = "home/samuel/Documents/the_odin_project/javascript-course/restaurant-page/src/images/pizza.jpeg";
     image.id = "image";
     image.classList.add("home");
     homePage.appendChild(image);
