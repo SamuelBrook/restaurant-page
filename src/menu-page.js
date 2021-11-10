@@ -19,7 +19,7 @@ const createMenuPage = () => {
 
     //add image for Pizza
     const imagePizza = document.createElement("img");
-    imagePizza.src = "../images/pizza.jpeg";
+    imagePizza.src = "images/pizza.jpeg";
     imagePizza.id = "image";
     homePage.appendChild(imagePizza);
 
@@ -31,7 +31,7 @@ const createMenuPage = () => {
 
     //add image for Spaghetti
     const imageSpaghetti = document.createElement("img");
-    imageSpaghetti.src = "../images/spaghetti.jpeg";
+    imageSpaghetti.src = "images/spaghetti.jpeg";
     imageSpaghetti.id = "image";
     homePage.appendChild(imageSpaghetti);
 }
